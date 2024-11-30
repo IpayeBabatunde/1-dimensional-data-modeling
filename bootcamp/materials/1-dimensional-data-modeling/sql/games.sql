@@ -1,6 +1,5 @@
 CREATE TABLE public.games (
     game_date_est date,
-    game_id integer NOT NULL,
     game_status_text text,
     home_team_id integer,
     visitor_team_id integer,
